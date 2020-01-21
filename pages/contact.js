@@ -91,9 +91,7 @@ class Contact extends Component{
 
                             {/* <!-- iframe --> */}
 
-                            <iframe class="frame" 
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7215.297725422988!2d77.32750268189497!3d28.541336793701234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce67f88a2e13d%3A0xec3bafae723255e8!2s10%2C+Raipur+Khadar%2C+Sector+126%2C+Noida%2C+Uttar+Pradesh+201303!5e0!3m2!1sen!2sin!4v1559890713220!5m2!1sen!2sin"
-                            width="100%" height="450" frameborder="0" allowfullscreen></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.6592806750423!2d77.19911471440447!3d28.51989709592213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce1fb44618b65%3A0x8e06b2a6128352d1!2sAcropolis%20Infotech%20Private%20Limited!5e0!3m2!1sen!2sin!4v1579625674380!5m2!1sen!2sin" width="100%" height="450" frameborder="0" allowfullscreen=""></iframe>
                             {/* <!-- iframe ends here --> */}
 
                         </div>

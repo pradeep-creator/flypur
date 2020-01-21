@@ -28,7 +28,7 @@ class About extends Component{
                                 <div class="static-shape ghost-shape ghost-shape-1"></div>
                             </div>
                             <div class="container  text-center">
-                                <h2 class="display-3 extra-bold mt-3 heading-line">About</h2>
+                                <h2 class="display-3 extra-bold mt-3 heading-line">About Us</h2>
                             </div>
                         </header>
 
