@@ -33,38 +33,30 @@ class Index extends Component {
                             <span class="icon-bar"></span> 
                             <span class="icon-bar"></span>
                         </button> 
-                        <a href="#main"
+                        <a href="/"
                             class="navbar-brand">
                             <img src="img/logo.png" alt="" class="logo logo-sticky d-block d-md-none" />
                             <img src="img/logo.png" alt="" class="logo d-none d-md-block" />
                         </a>
                         <div class="collapse navbar-collapse" id="main-navbar">
                             <div class="sidebar-brand">
-                                <a href="index.html">
-                                    <img src="img/logo.png" alt="Doner Management Template"
+                                <a href="/">
+                                    <img src="img/logo.png" alt="flypur"
                                         class="logo" />
                                 </a>
                             </div>
                             <ul class="nav navbar-nav ml-auto">
                                 <li class="nav-item">
-                                    <Link href="/">
-                                        <a className="nav-link">Home</a>
-                                    </Link>
+                                    <a href="/" className="nav-link">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <Link href="/about">
-                                        <a className="nav-link">About</a>
-                                    </Link>
+                                    <a href="/about" className="nav-link">About Us</a>
                                 </li>
                                 <li class="nav-item">
-                                    <Link href="/contact">
-                                        <a className="nav-link">Contact</a>
-                                    </Link>
+                                    <a href="/contact" className="nav-link">Contact Us</a>
                                 </li> 
                                 <li class="nav-item">
-                                    <Link href="/contact">
-                                        <a className="nav-link btn-primary buttoncolor">Sign Up</a>
-                                    </Link>
+                                    <a href="/" className="nav-link btn-primary buttoncolor">Sign In</a>
                                 </li>                                
                             </ul>
                         </div>

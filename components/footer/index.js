@@ -69,65 +69,47 @@ class Index extends Component {
                             </div>
                             <div className="col-md-2">
                                 <nav className="nav flex-column"> 
-                                    <Link href="/about">
-                                        <a className="nav-item py-2 text-contrast">About Us</a>
-                                    </Link>
-                                    <Link href="/contact">
-                                        <a className="nav-item py-2 text-contrast">How Flypur Works</a>
-                                    </Link>
-                                    <Link href="/contact">
-                                        <a className="nav-item py-2 text-contrast">Contact Us</a>
-                                    </Link>                                      
+                                    <a href="/about" className="nav-item py-2 text-contrast">About Us</a>
+                                    <a href="/how-works" className="nav-item py-2 text-contrast">How Flypur Works</a>
+                                    <a href="/contact" className="nav-item py-2 text-contrast">Contact Us</a>                                      
                                 </nav>
                             </div>
                             <div className="col-md-2">
                                 <nav className="nav flex-column">
-                                    <Link href="/">
-                                        <a className="nav-item py-2 text-contrast">FAQs</a>
-                                    </Link>
-                                    <Link href="/">
-                                        <a className="nav-item py-2 text-contrast">Terms &amp; Conditions</a>
-                                    </Link>
-                                    <Link href="/">
-                                        <a className="nav-item py-2 text-contrast">Privacy Policy</a>
-                                    </Link>
+                                    <a href="/faqs" className="nav-item py-2 text-contrast">FAQs</a>
+                                    <a href="/term-condition" className="nav-item py-2 text-contrast">Terms &amp; Conditions</a>
+                                    <a href="/privacy-policy" className="nav-item py-2 text-contrast">Privacy Policy</a>
                                 </nav>
                             </div>
                             <div className="col-md-2">
                                 <nav className="nav flex-column"> 
-                                    <Link href="/">
-                                        <a className="nav-item py-2 text-contrast">Trust &amp; Safety</a>
-                                    </Link>
-                                     <Link href="/">
-                                        <a className="nav-item py-2 text-contrast">Refund Policy</a>
-                                     </Link>
-                                     <Link href="/">
-                                        <a className="nav-item py-2 text-contrast">Pricing</a>
-                                     </Link>                                   
+                                    <a href="/trust-safety" className="nav-item py-2 text-contrast">Trust &amp; Safety</a>
+                                    <a href="/refund-policy" className="nav-item py-2 text-contrast">Refund Policy</a>
+                                    <a href="/pricing" className="nav-item py-2 text-contrast">Pricing</a>                                  
                                 </nav>
                             </div>
                             <div className="col-md-4">
                                 <h6 className="py-2 small">Follow us</h6>
                                 <nav className="nav justify-content-around">
-                                    <a href="#" target="_blank" className="btn btn-circle btn-sm brand-facebook">
+                                    <a href="https://www.facebook.com/flypur" target="_blank" className="btn btn-circle btn-sm brand-facebook">
                                         <i className="fab fa-facebook"></i>
                                     </a> 
-                                    <a href="#" className="btn btn-circle btn-sm brand-twitter">
+                                    <a href="https://twitter.com/flypurglobal" target="_blank" className="btn btn-circle btn-sm brand-twitter">
                                         <i className="fab fa-twitter"></i>
                                     </a> 
-                                    <a href="#" className="btn btn-circle btn-sm brand-instagram">
+                                    <a href="https://www.instagram.com/flypurglobal" target="_blank" className="btn btn-circle btn-sm brand-instagram">
                                         <i className="fab fa-instagram"></i>
                                     </a>
-                                    <a href="#" className="btn btn-circle btn-sm brand-linkedin">
+                                    <a href="https://www.linkedin.com/company/flypur" target="_blank" className="btn btn-circle btn-sm brand-linkedin">
                                         <i className="fab fa-linkedin"></i>
                                     </a>
-                                    <a href="#" className="btn btn-circle btn-sm brand-youtube">
+                                    <a href="https://www.youtube.com/channel/UC4LsqsY3H2jy5JSmiRDFEwA" target="_blank" className="btn btn-circle btn-sm brand-youtube">
                                         <i className="fab fa-youtube"></i>
                                     </a>
-                                    <a href="#" className="btn btn-circle btn-sm brand-pinterest">
+                                    <a href="https://in.pinterest.com/flypur" target="_blank" className="btn btn-circle btn-sm brand-pinterest">
                                         <i className="fab fa-pinterest"></i>
                                     </a>
-                                    <a href="#" className="btn btn-circle btn-sm brand-tumblr">
+                                    <a href="https://flypur.tumblr.com/" target="_blank" className="btn btn-circle btn-sm brand-tumblr">
                                         <i className="fab fa-tumblr"></i>
                                     </a>
                                 </nav>
